@@ -1,0 +1,17 @@
+# Core ML / numerical
+torch ; sys_platform == 'linux'
+torch ; sys_platform != 'linux'
+numpy
+pandas
+scipy
+
+# Plotting (notebook only)
+matplotlib
+seaborn
+
+# Notebook
+jupyter==1.0.0
+ipykernel==6.29.4
+
+# Testing
+pytest

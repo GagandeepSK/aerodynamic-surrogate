@@ -1,0 +1,25 @@
+{
+  "source": "Ladson, C. L., NASA Technical Memorandum 4074 (1988), Table VII",
+  "url": "https://ntrs.nasa.gov/api/citations/19880019495/downloads/19880019495.pdf",
+  "repository_source": "https://github.com/Itsvkid/naca0012-openfoam/blob/main/validation/reference/naca0012-ladson-tm4074.json",
+  "reynolds": 6000000.0,
+  "mach": 0.15,
+  "surface_condition": "standard roughness, transition fixed with No. 60-W grit",
+  "notes": "Digitised reference polar. Stall occurs between 14.02 and 15.06 degrees; Cl_max=1.2169.",
+  "points": [
+    {"alpha": -4.15, "Cl": -0.4455, "Cd": 0.01048},
+    {"alpha": -2.13, "Cl": -0.2321, "Cd": 0.00905},
+    {"alpha": 0.0, "Cl": -0.0043, "Cd": 0.00895},
+    {"alpha": 2.06, "Cl": 0.2145, "Cd": 0.00945},
+    {"alpha": 4.06, "Cl": 0.4296, "Cd": 0.00976},
+    {"alpha": 6.01, "Cl": 0.6359, "Cd": 0.01116},
+    {"alpha": 8.03, "Cl": 0.8354, "Cd": 0.01406},
+    {"alpha": 10.12, "Cl": 1.0209, "Cd": 0.01928},
+    {"alpha": 11.17, "Cl": 1.1002, "Cd": 0.02188},
+    {"alpha": 12.05, "Cl": 1.1585, "Cd": 0.02551},
+    {"alpha": 13.24, "Cl": 1.2083, "Cd": 0.03200},
+    {"alpha": 14.02, "Cl": 1.2169, "Cd": 0.03891},
+    {"alpha": 15.06, "Cl": 0.9470, "Cd": 0.21816},
+    {"alpha": 16.16, "Cl": 0.8884, "Cd": 0.25187}
+  ]
+}

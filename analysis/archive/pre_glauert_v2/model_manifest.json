@@ -1,0 +1,22 @@
+{
+  "purpose": "Pre-Glauert v2 baseline manifest. The corresponding deployed model used the uncorrected 2\u03c0 lift slope and is retained only for audit traceability.",
+  "model_weights_sha256": "a7c1477440ae129a78672c4fdf5e8bfc3958732d812f746220fc60e6ffbe5cd3",
+  "dashboard_embedded_weights_sha256": "b35a1360f5bef873b6bcce5eb5e97245e0131e062e9e06331f395ad83108ac7e",
+  "test_r2": [
+    0.9998082518577576,
+    0.999713659286499
+  ],
+  "test_mae": [
+    0.009043881669640541,
+    0.00023255457927007228
+  ],
+  "test_rmse": [
+    0.012336064130067825,
+    0.00033241065102629364
+  ],
+  "archived_files": [
+    "naca0012_tm4074_metrics.json",
+    "naca0012_tm4074_drag_calibration.json"
+  ],
+  "model_json_canonical_sha256": "b35a1360f5bef873b6bcce5eb5e97245e0131e062e9e06331f395ad83108ac7e"
+}

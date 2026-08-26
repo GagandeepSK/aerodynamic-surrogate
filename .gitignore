@@ -1,0 +1,30 @@
+# Dataset (regenerate with data/generate_dataset.py)
+data/dataset.csv
+data/uiuc_cache/
+
+# PyTorch checkpoints are generated on EC2; commit model_weights.json for the dashboard instead
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Historical deployment snapshots — retained locally for audit only
+S3 Backup/
+
+# Regenerated corrected dataset
+data/dataset_v2.csv
+
+# Local-only transfer packages and superseded workspace material
+_local_artifacts/

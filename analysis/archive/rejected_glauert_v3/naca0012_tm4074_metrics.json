@@ -1,0 +1,170 @@
+{
+  "reference_source": "Ladson, C. L., NASA Technical Memorandum 4074 (1988), Table VII",
+  "reference_url": "https://ntrs.nasa.gov/api/citations/19880019495/downloads/19880019495.pdf",
+  "reynolds": 6000000.0,
+  "surface_condition": "standard roughness, transition fixed with No. 60-W grit",
+  "scope_note": "This is an external reference/calibration case. It is not a held-out validation set after calibration.",
+  "overall": {
+    "points": 14,
+    "cl_mae": 0.11109326779842377,
+    "cl_max_error": 0.24882662296295166,
+    "cd_mae": 0.033219996839761734,
+    "cd_max_error": 0.20577597618103027
+  },
+  "attached_flow_through_14_02_deg": {
+    "points": 12,
+    "cl_mae": 0.09608489274978638,
+    "cl_max_error": 0.24882662296295166,
+    "cd_mae": 0.00655582407489419,
+    "cd_max_error": 0.009142779745161533
+  },
+  "post_stall_above_14_02_deg": {
+    "points": 2,
+    "cl_mae": 0.2011435329914093,
+    "cl_max_error": 0.21680545806884766,
+    "cd_mae": 0.19320502877235413,
+    "cd_max_error": 0.20577597618103027
+  },
+  "points": [
+    {
+      "alpha_deg": -4.150000095367432,
+      "cl_prediction": -0.504417896270752,
+      "cl_reference": -0.445499986410141,
+      "cl_abs_error": 0.05891790986061096,
+      "cd_prediction": 0.004999745637178421,
+      "cd_reference": 0.010479999706149101,
+      "cd_abs_error": 0.00548025406897068,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": -2.130000114440918,
+      "cl_prediction": -0.26294636726379395,
+      "cl_reference": -0.2320999950170517,
+      "cl_abs_error": 0.03084637224674225,
+      "cd_prediction": 0.004134096205234528,
+      "cd_reference": 0.009050000458955765,
+      "cd_abs_error": 0.004915904253721237,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": 0.0,
+      "cl_prediction": -0.003978252410888672,
+      "cl_reference": -0.00430000014603138,
+      "cl_abs_error": 0.0003217477351427078,
+      "cd_prediction": 0.003665490075945854,
+      "cd_reference": 0.008949999697506428,
+      "cd_abs_error": 0.005284509621560574,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": 2.059999942779541,
+      "cl_prediction": 0.2401726245880127,
+      "cl_reference": 0.21449999511241913,
+      "cl_abs_error": 0.025672629475593567,
+      "cd_prediction": 0.004060566425323486,
+      "cd_reference": 0.009449999779462814,
+      "cd_abs_error": 0.005389433354139328,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": 4.059999942779541,
+      "cl_prediction": 0.48400765657424927,
+      "cl_reference": 0.4296000003814697,
+      "cl_abs_error": 0.05440765619277954,
+      "cd_prediction": 0.004857268184423447,
+      "cd_reference": 0.009759999811649323,
+      "cd_abs_error": 0.004902731627225876,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": 6.010000228881836,
+      "cl_prediction": 0.7303188443183899,
+      "cl_reference": 0.6359000205993652,
+      "cl_abs_error": 0.09441882371902466,
+      "cd_prediction": 0.006438646465539932,
+      "cd_reference": 0.01116000022739172,
+      "cd_abs_error": 0.004721353761851788,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": 8.029999732971191,
+      "cl_prediction": 0.9430845379829407,
+      "cl_reference": 0.8353999853134155,
+      "cl_abs_error": 0.10768455266952515,
+      "cd_prediction": 0.00822504609823227,
+      "cd_reference": 0.014059999957680702,
+      "cd_abs_error": 0.005834953859448433,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": 10.119999885559082,
+      "cl_prediction": 1.2080405950546265,
+      "cl_reference": 1.020900011062622,
+      "cl_abs_error": 0.1871405839920044,
+      "cd_prediction": 0.010939777828752995,
+      "cd_reference": 0.019279999658465385,
+      "cd_abs_error": 0.008340221829712391,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": 11.170000076293945,
+      "cl_prediction": 1.3490266799926758,
+      "cl_reference": 1.1002000570297241,
+      "cl_abs_error": 0.24882662296295166,
+      "cd_prediction": 0.012737221084535122,
+      "cd_reference": 0.021880000829696655,
+      "cd_abs_error": 0.009142779745161533,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": 12.050000190734863,
+      "cl_prediction": 1.396917700767517,
+      "cl_reference": 1.1584999561309814,
+      "cl_abs_error": 0.23841774463653564,
+      "cd_prediction": 0.017355632036924362,
+      "cd_reference": 0.025510000064969063,
+      "cd_abs_error": 0.0081543680280447,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": 13.239999771118164,
+      "cl_prediction": 1.302612543106079,
+      "cl_reference": 1.208299994468689,
+      "cl_abs_error": 0.09431254863739014,
+      "cd_prediction": 0.02442866563796997,
+      "cd_reference": 0.03200000151991844,
+      "cd_abs_error": 0.007571335881948471,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": 14.020000457763672,
+      "cl_prediction": 1.2289514541625977,
+      "cl_reference": 1.2168999910354614,
+      "cl_abs_error": 0.01205146312713623,
+      "cd_prediction": 0.029977964237332344,
+      "cd_reference": 0.03891000151634216,
+      "cd_abs_error": 0.008932037279009819,
+      "regime": "attached"
+    },
+    {
+      "alpha_deg": 15.0600004196167,
+      "cl_prediction": 1.1638054847717285,
+      "cl_reference": 0.9470000267028809,
+      "cl_abs_error": 0.21680545806884766,
+      "cd_prediction": 0.037525907158851624,
+      "cd_reference": 0.2181600034236908,
+      "cd_abs_error": 0.18063409626483917,
+      "regime": "post_stall"
+    },
+    {
+      "alpha_deg": 16.15999984741211,
+      "cl_prediction": 1.0738816261291504,
+      "cl_reference": 0.8884000182151794,
+      "cl_abs_error": 0.18548160791397095,
+      "cd_prediction": 0.04609403759241104,
+      "cd_reference": 0.2518700063228607,
+      "cd_abs_error": 0.20577597618103027,
+      "regime": "post_stall"
+    }
+  ]
+}

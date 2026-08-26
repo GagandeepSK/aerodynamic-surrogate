@@ -1,0 +1,31 @@
+{
+  "purpose": "Attached-flow drag calibration. Not held-out validation and not intended for separated flow.",
+  "source": "Ladson, C. L., NASA Technical Memorandum 4074 (1988), Table VII",
+  "reference_url": "https://ntrs.nasa.gov/api/citations/19880019495/downloads/19880019495.pdf",
+  "condition": {
+    "airfoil": "NACA 0012",
+    "reynolds": 6000000.0,
+    "surface_condition": "standard roughness, transition fixed with No. 60-W grit",
+    "fitted_alpha_range_deg": [
+      -4.15,
+      14.02
+    ],
+    "excluded_post_stall_alpha_deg": [
+      15.06,
+      16.16
+    ]
+  },
+  "parameters": {
+    "cd0_scale": 2.2439031584947045,
+    "cl2_coeff": 0.00916797874458319,
+    "alpha2_coeff": 1.0000000016572438e-06,
+    "fixed_stall_drag_coeff": 0.004,
+    "fixed_stall_drag_exponent": 1.3,
+    "fixed_stall_onset_deg": 11.0
+  },
+  "metrics": {
+    "cd_mae": 0.0007005196090839604,
+    "cd_rmse": 0.0008818458004866167,
+    "cd_max_abs_error": 0.0017376883346126235
+  }
+}
