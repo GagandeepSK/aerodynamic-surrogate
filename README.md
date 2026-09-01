@@ -10,7 +10,11 @@
 
 ## Live Demo
 
-Open `dashboard/index.html` in any browser (internet required — loads Plotly from a pinned CDN). Adjust camber, thickness, angle of attack, and Reynolds number interactively; the MLP runs entirely client-side with no inference server.
+[![Open Dashboard](https://img.shields.io/badge/Open%20Dashboard-Live%20Preview-2563eb?style=for-the-badge)](http://htmlpreview.github.io/?https://github.com/GagandeepSK/aerodynamic-surrogate/blob/main/dashboard/index.html)
+
+**[Click to open the interactive dashboard](http://htmlpreview.github.io/?https://github.com/GagandeepSK/aerodynamic-surrogate/blob/main/dashboard/index.html)**
+
+Or download `dashboard/index.html` locally and open in any browser — no server required. Adjust camber, thickness, angle of attack, and Reynolds number interactively; the MLP runs entirely client-side with no inference server.
 
 ---
 
