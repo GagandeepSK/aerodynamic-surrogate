@@ -262,4 +262,4 @@ Trained on AWS EC2 (t3.micro CPU, Ubuntu 26.04, ~8 min for 200 epochs). `export_
 **Gagandeep Kapoor**
 Mechanical Engineering Student | Amazon Intern (EMA4, 2026)
 
-This project was designed, built, and validated entirely by Gagandeep Kapoor as a personal portfolio project, developed alongside an Amazon internship and AWS ML Engineer Associate certification. All physics derivations, model architecture choices, and design decisions — including the documented rejection of the Glauert experiment — are original work.
+This project was designed, built, and validated entirely by Gagandeep Kapoor as a personal portfolio project. All physics derivations, model architecture choices, and design decisions — including the documented rejection of the Glauert experiment — are original work.
