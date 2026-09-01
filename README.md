@@ -11,6 +11,7 @@
 ## Live Demo
 
 Download `dashboard/index.html` and open it locally in any browser - no server required. 
+
 The MLP forward pass runs client-side, so local execution is needed for full performance. Adjust camber, thickness, angle of attack, and Reynolds number interactively.
 
 ---
